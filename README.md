@@ -19,7 +19,7 @@ Go to the Visited Website Tracker repository.
 
 Click on the green Code button and select Download ZIP.
 
-### **2. Install the Extension Locally
+### **2. Install the Extension Locally**
 Once you have downloaded the repository, follow these steps to load the extension in Chrome:
 
 Open Chrome and go to the Extensions page:
@@ -40,46 +40,46 @@ Select the folder where you cloned or extracted the repository (the folder conta
 
 This will install the extension locally on your Chrome browser.
 
-### **3. Testing the Extension
+### **3. Testing the Extension**
 Once the extension is installed, you will see the Visited Website Tracker icon in the top-right of the Chrome toolbar.
 
 Click on the icon to open the popup where you can see the list of visited websites.
 
 The extension will automatically track the websites you visit and display them in the list.
 
-**How to Use the Extension
+### **How to Use the Extension**
 Viewing Visited Websites:
 
 Click on the extension icon to open the popup.
 
 A list of visited websites will appear with the total count at the top.
 
-Searching Visited Websites:
+### **Searching Visited Websites:**
 
 Use the Search bar in the popup to filter the list of websites. As you type, the list will update based on the search query.
 
-Clearing History:
+### **Clearing History:**
 
 Click on the Clear History button to remove all the websites from the list.
 
-Downloading Website History:
+### **Downloading Website History:**
 
 To download the visited websites as a .txt file, click on the Download as Txt File button.
 
 The file will be downloaded to your default download folder with the filename visited_websites_<current_date>.txt.
 
-Permissions Requested
+### **Permissions Requested**
 The extension requires the following permissions to function:
 
-Storage: Used to store the list of visited websites in your local storage.
+### **Storage:** Used to store the list of visited websites in your local storage.
 
-Web Navigation: Monitors the websites you visit and tracks them in real-time.
+### **Web Navigation:** Monitors the websites you visit and tracks them in real-time.
 
-Active Tab: To display the extension when interacting with the active tab.
+### **Active Tab:** To display the extension when interacting with the active tab.
 
-Host Permissions (<all_urls>): To allow the extension to track websites across all URLs.
+### **Host Permissions (<all_urls>):** To allow the extension to track websites across all URLs.
 
-Troubleshooting
+### **Troubleshooting**
 If the extension is not tracking websites correctly:
 
 Ensure that you have not disabled permissions for the extension.
@@ -90,8 +90,8 @@ If the list of websites does not update immediately:
 
 Refresh the page or reopen the extension popup.
 
-Contributing
+### **Contributing**
 If you'd like to contribute to the development of this extension, feel free to fork the repository, make your changes, and submit a pull request.
 
-License
+### **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
