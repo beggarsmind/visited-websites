@@ -47,7 +47,7 @@ Click on the icon to open the popup where you can see the list of visited websit
 
 The extension will automatically track the websites you visit and display them in the list.
 
-How to Use the Extension
+### How to Use the Extension
 Viewing Visited Websites:
 
 Click on the extension icon to open the popup.
