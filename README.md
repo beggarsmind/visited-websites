@@ -19,7 +19,7 @@ Go to the Visited Website Tracker repository.
 
 Click on the green Code button and select Download ZIP.
 
-2. Install the Extension Locally
+### **2. Install the Extension Locally
 Once you have downloaded the repository, follow these steps to load the extension in Chrome:
 
 Open Chrome and go to the Extensions page:
@@ -40,7 +40,7 @@ Select the folder where you cloned or extracted the repository (the folder conta
 
 This will install the extension locally on your Chrome browser.
 
-3. Testing the Extension
+### **3. Testing the Extension
 Once the extension is installed, you will see the Visited Website Tracker icon in the top-right of the Chrome toolbar.
 
 Click on the icon to open the popup where you can see the list of visited websites.
