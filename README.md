@@ -71,15 +71,15 @@ The file will be downloaded to your default download folder with the filename vi
 ### **Permissions Requested**
 The extension requires the following permissions to function:
 
-### **Storage:** Used to store the list of visited websites in your local storage.
+Storage: Used to store the list of visited websites in your local storage.
 
-### **Web Navigation:** Monitors the websites you visit and tracks them in real-time.
+Web Navigation: Monitors the websites you visit and tracks them in real-time.
 
-### **Active Tab:** To display the extension when interacting with the active tab.
+Active Tab: To display the extension when interacting with the active tab.
 
-### **Host Permissions (<all_urls>):** To allow the extension to track websites across all URLs.
+Host Permissions (<all_urls>): To allow the extension to track websites across all URLs.
 
-### **Troubleshooting**
+Troubleshooting**
 If the extension is not tracking websites correctly:
 
 Ensure that you have not disabled permissions for the extension.
