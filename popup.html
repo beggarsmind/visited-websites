@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Charset and Viewport for Responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Track your visited websites with this easy-to-use tracker extension. View your browsing history and search for specific websites."
+    />
+    <meta
+      name="keywords"
+      content="website tracker, browser history, visited websites, website tracker extension, history viewer, visited site list"
+    />
+    <meta name="author" content="Ranjithkumar.R" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Visited Website Tracker" />
+    <meta
+      property="og:description"
+      content="Track your visited websites with this easy-to-use tracker extension."
+    />
+    <meta property="og:image" content="icons/icon128.png" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
+
+    <title>Visited Website Tracker</title>
+
+    <!-- External CSS and Font Links -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Merriweather&family=Pacifico&family=Courier+New&family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon for Browser Icon -->
+    <link rel="icon" href="icons/icon128.png" type="image/png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- TITLE BUTTON -->
+      <h3>
+        <img src="icons/icon128.png" alt="Icon" class="icon-image" />
+        Visited Website Tracker
+      </h3>
+
+      <!-- Footer -->
+      <div class="footer">
+        <footer><p>Designed by Ranjithkumar.R</p></footer>
+      </div>
+
+      <!-- Visited Websites Count -->
+      <div class="visitedCount" id="visitedCount">
+        Total Visited Websites: 0
+      </div>
+
+      <!-- Search Container -->
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search visited websites..."
+          aria-label="Search Visited Websites"
+        />
+        <button
+          id="searchButton"
+          title="Search"
+          aria-label="Search Visited Websites"
+        >
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+      <!-- Visited Websites List -->
+      <ul id="visitedWebsites"></ul>
+
+      <!-- Action Buttons -->
+      <div class="button-container">
+        <button id="clearButton">
+          Clear History <i class="fa-solid fa-clock-rotate-left"></i>
+        </button>
+        <button id="downloadButton">
+          Download as Txt File <i class="fas fa-download"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="version1">
+      @2025 All Rights Reserved
+      <a
+        href="https://github.com/beggarsmind"
+        id="footerLink"
+        rel="noopener"
+        target="_blank"
+        title="Visit: https://github.com/beggarsmind"
+      >
+        <strong>Beggar's Mind</strong>
+      </a>
+    </div>
+
+    <div class="version2">Version 3.0</div>
+
+    <!-- External JS Files -->
+    <script src="popup.js"></script>
+    <script src="search.js"></script>
+  </body>
+</html>
